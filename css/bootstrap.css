@@ -324,7 +324,7 @@ img {
 }
 .iframe-responsive-resumen{
   display: block;
-  max-width: 100%;
+  max-width: 500px;
   height: 1650px; 
 }
 .img-rounded {

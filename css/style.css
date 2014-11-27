@@ -96,7 +96,7 @@ body {
 	-webkit-appearance: none;
 }
 .h_search form input[type="submit"]:hover {
-	background: #FF5454;
+	background: #8CAED3;
 }
 /* menu */
 .h_menu{
@@ -159,7 +159,7 @@ body {
 	transition: all 0.3s ease-in-out;
 }
 .soc_icons ul li a:hover{
-	background: #FF5454;
+	background: #8CAED3;
 }
 /* start slider */
 .slider_bg{
@@ -650,7 +650,7 @@ body {
 	color: #3b3b3b;
 }
 .company_ad p a {
-	color: #ff5454;
+	color: #8CAED3;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -684,7 +684,7 @@ body {
 	outline: none;
 	color: #c0c0c0;
 	font-size: 0.8725em;
-	border: 1px solid #ECECEC;
+	border: 1px solid #8CAED3;
 	-webkit-appearance: none;
 	resize: none;
 	height: 120px;
@@ -698,11 +698,11 @@ body {
 	transition: all 0.3s ease-in-out;
 }
 .contact-form textarea:focus{
-	border:1px solid #ff5454;
+	border: 4px solid #8CAED3;
 }
 .form-control{
 	box-shadow: none;
-	border: 1px solid #ECECEC;
+	border: 1px solid #8CAED3;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -726,7 +726,10 @@ body {
 	z-index: 1;
 }
 .form-control:focus {
-	border-color: #ff5454;
+	/*border-color: green;*/
+	border:4px solid #8CAED3;
+	
+	
 }
 /* start details */
 .details img{
@@ -830,9 +833,11 @@ body {
 @media only screen and (max-width: 640px){
 	.company_ad{
 		margin-left: 0;
+		color: #8CAED3;
 	}
 	.blog_left h4 a {
 		font-size: 1.2em;
+		color:#8CAED3;;
 	}
 	.technology h4 {
 		font-size: 17px;

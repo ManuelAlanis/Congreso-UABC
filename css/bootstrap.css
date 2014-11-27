@@ -316,6 +316,17 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.iframe-responsive-pagos{
+  display: block;
+  max-width: 100%;
+  height: 1650px; 
+}
+.iframe-responsive-resumen{
+  display: block;
+  max-width: 100%;
+  height: 1650px; 
+}
 .img-rounded {
   border-radius: 6px;
 }

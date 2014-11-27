@@ -3,7 +3,7 @@
 /* Tables
 -------------------------------------------------------------------------*/
 table.table_style_blue, table.table_style_green, table.table_style_red, table.table_style_black, table.table_style_yellow  {
-    border: 1px solid #DDDDDD;
+    border: 1px solid black;
     border-collapse: collapse;
     color: #404040;
     width: 100%;
@@ -16,8 +16,8 @@ table.table_style_bill {
  }
 
 table.table_style_bill tbody tr, table.table_style_blue tbody tr, table.table_style_green tbody tr, table.table_style_red tbody tr, table.table_style_black tbody tr, table.table_style_yellow tbody tr  {
-    background: none repeat scroll 0 0 #F2F2F2;
-border: 1px solid #DDDDDD;
+    background: none repeat scroll 0 0 #e1e1e1;
+border: 1px solid white;
 -webkit-transition: all 800ms ease-in-out;
 -moz-transition: all 800ms ease-in-out;
 -o-transition: all 800ms ease-in-out;
@@ -25,7 +25,7 @@ transition: all 800ms ease-in-out;
 }
 
 table.table_style_bill tbody tr:hover, table.table_style_blue tbody tr:hover , table.table_style_green tbody tr:hover, table.table_style_red tbody tr:hover, table.table_style_black tbody tr:hover, table.table_style_yellow tbody tr:hover  {
-    background: none repeat scroll 0 0 #E5E5E5;
+    background: none repeat scroll 0 0 #8CAED3;
 -webkit-transition: all 300ms ease-in-out;
 -moz-transition: all 300ms ease-in-out;
 -o-transition: all 300ms ease-in-out;

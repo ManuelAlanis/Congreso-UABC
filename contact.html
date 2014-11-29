@@ -103,42 +103,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  	<h2>Contacto</h2>
 			<section class="grid col-three-quarters mq2-col-two-thirds mq3-col-full">
 			<form id="contact_form" class="contact_form" action="contact.php" method="post" name="contact_form">	
-				<ul>
-					<li>
-						<label for="name">Nombre:</label>
-						<input type="text" name="name" id="name" required class="required" >
-					</li>
-					<li>
-						<label for="email">Correo electronico:</label>
-						<input type="email" name="email" id="email" required placeholder="JohnDoe@gmail.com" class="required email">
-					</li>	
-					<li>
-						<label for="message">Mensaje:</label>
-						<textarea name="message" id="message" cols="100" rows="6" required  class="required" ></textarea>
-					</li>
-					<li>
-						<button type="submit" id="submit" name="submit" class="button fright">Enviar</button>
-					</li>	
-				</ul>			
+				
+					
+						<span>Nombre</span>
+						<span>
+						<input type="text" name="name" id="name" required class="form-control required" ></span>
+					
+					
+						<span>e-mail</span>
+						<span><input type="email" name="email" id="email" required placeholder="ejemplo@ejemplo.com" class="form-control required email"></span>
+					
+					
+						<span>Mensaje:</span>
+						<span><textarea name="message" id="message" cols="100" rows="6" required  class="required " ></textarea></span>
+						<!-- <button type="submit" id="submit" name="submit" class="button fright ">Enviar</button>		
+						<div> -->
+						   		<label id="submite"name="submite"class="fa-btn btn-1 btn-1e"><input type="submit" value="Enviar"></label>
+						  </div>		
 			</form>
 		</section>	
-							<!-- <form method="post" action="contact.php">
-					    	<div>
-						    	<span>Nombre</span>
-						    	<span><input id="name"name="name"type="username" class="form-control" id="userName"></span>
-						    </div>
-						    <div>
-						    	<span>e-mail</span>
-						    	<span><input id="email" name="email"type="email" class="form-control"placeholder="ejemplo@dominio.com" id="inputEmail3"></span>
-						    </div>
-						    <div>
-						    	<span>Asunto</span>
-						    	<span><textarea id="message" name="message"> </textarea></span>
-						    </div>
-						   <div>
-						   		<label id="submite"name="submite"class="fa-btn btn-1 btn-1e"><input type="submit" value="Enviar"></label>
-						  </div>
-					    </form> -->
+					    	
+					    </form>
 				    </div>
   			</div>		
   			<div class="clearfix"></div>		

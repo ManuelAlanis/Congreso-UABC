@@ -681,6 +681,14 @@ body {
 	font-weight: normal;
 	margin-bottom: 10px;
 }
+
+.privacidad span{
+	display:block;
+	font-size: 14px;
+	color: #5b5b5b;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
 .contact-form textarea {
 	font-family: 'Open Sans', 'sans-serif';
 	padding: 10px;

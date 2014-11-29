@@ -1,7 +1,7 @@
 <?php
 
 $EmailFrom = $_REQUEST['email']; 
-$EmailTo = "man.alaniz@gmail.com,"."alanism@uabc.edu.mx"; // Your email address here
+$EmailTo = "ci2t@uabc.edu.mx,"."cgaxiola@uabc.edu.mx,"."dtrujillotoledo@uabc.edu.mx,"."alanism@uabc.edu.mx"; // Your email address here
 $Subject = "Formulario Contacto Ci2tijuana.org";
 $Name = Trim(stripslashes($_POST['name'])); 
 $Email = Trim(stripslashes($_POST['email'])); 

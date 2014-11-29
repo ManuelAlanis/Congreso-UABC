@@ -34,7 +34,7 @@ $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 // redirect to success page 
 if ($success){
  alert("Mensaje enviado");
- // header("Location: http://107.170.205.133/contact.html");
+ header("Location: http://ci2tijuana.org/contact.html");
   // echo "Succes";
 }
 else{

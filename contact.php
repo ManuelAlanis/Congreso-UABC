@@ -33,8 +33,8 @@ $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
 // redirect to success page 
 if ($success){
- header("Location: http://107.170.205.133/contact.html");
-  echo "Succes";
+ // header("Location: http://107.170.205.133/contact.html");
+  // echo "Succes";
 }
 else{
   echo "Error";

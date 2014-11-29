@@ -5,6 +5,9 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
 
+.size{
+
+}
 .construc{
 	position: relative;
 	left: 400px;
@@ -696,8 +699,8 @@ body {
 	width: 99.3333%;
 	background: #ffffff;
 	outline: none;
-	color: #c0c0c0;
-	font-size: 0.8725em;
+	color: black;
+	font-size: 1.8725em;
 	border: 1px solid #8CAED3;
 	-webkit-appearance: none;
 	resize: none;

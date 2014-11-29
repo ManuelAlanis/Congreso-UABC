@@ -33,7 +33,6 @@ $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
 // redirect to success page 
 if ($success){
- alert("Mensaje enviado");
  header("Location: http://ci2tijuana.org/contact.html");
   // echo "Succes";
 }

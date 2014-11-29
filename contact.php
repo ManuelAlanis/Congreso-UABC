@@ -8,11 +8,11 @@ $Email = Trim(stripslashes($_POST['email']));
 $Message = Trim(stripslashes($_POST['message']));
 
 // validation
-$validationOK=true;
-if (!$validationOK) {
-  echo "Error";
-  exit;
-}
+// $validationOK=true;
+// if (!$validationOK) {
+//   echo "Error";
+//   exit;
+// }
 
 // prepare email body text
 $Body = "";

@@ -45,7 +45,7 @@ return(mail($sPara, $sAsunto, $sTexto, $sCabeceras));
 }
 
 //cambiar aqui el email 
-if (form_mail("man.alaniz@gmail.com", $_POST[asunto], 
+if (form_mail("alanism@uabc.edu.mx", $_POST[asunto], 
 "Los datos introducidos en el formulario son:\n\n", $_POST[email])) 
  header( 'Location: http://ci2tijuana.org/sen.html' ) ;
 // echo "Su formulario ha sido enviado con exito"; 

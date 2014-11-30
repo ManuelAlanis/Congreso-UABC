@@ -18,8 +18,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	width: 400px;
 }
 .uabc img{
-	height: 520px;
-	width: 500px;
+	height: auto;
+	width: auto;
 }
 li #iris{
 	height: 40px;

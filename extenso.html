@@ -91,7 +91,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  <div class="contact-form">
 				  	<h2>Extenso</h2>
 			<section class="grid col-three-quarters mq2-col-two-thirds mq3-col-full">
-			<form id="contact_form" class="contact_form" action="contact.php" method="post" name="contact_form">	
+<form name='formulario' id='formulario' method='post' action='upload.php' target='_self' enctype="multipart/form-data"> 
+
+<!-- <h2 align="center"> <img alt=""> ¡ Envia tu foto !</h2> -->
+<label for="name">Nombre:</label>
+<input class="w-input" placeholder="Escribe tu nombre completo"type='text' name='Nombre' id='Nombre'>
+<label for="email">Correo Electrónico:</label>
+<input  class="w-input" placeholder=""type='text' name='email' id='email'>
+<label for="email">Mensaje de la :</label>
+<input class="w-input message" placeholder="" type='text' name='asunto' id='asunto' />
+<label for="email">Mensaje de la :</label>
+<input class="w-input" placeholder="Calle # Colonia #"name="mensaje" cols="50" rows="10" id="mensaje"></input>
+
+<p>Seleccionar : <input type='file' name='archivo1' id='archivo1'></p> 
+<p>
+<button class="w-button" type="submit">! Enviar !</button>
+<!-- <input type='submit' value='Enviar'>  -->
+</p> 
+</form>
+
+<!-- 			<form id="contact_form" class="contact_form" action="contact.php" method="post" name="contact_form">	
 				<ul>
 					
 					
@@ -114,7 +133,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						
 						
 				</ul>			
-			</form>
+			</form> -->
 		</section>	
 				    </div>
   			</div>		

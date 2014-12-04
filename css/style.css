@@ -373,7 +373,7 @@ body {
 }
 .technology h2{
 	margin: 0 0 20px;
-	text-transform: capitalize;
+	text-transform: none;
 	font-size: 3em;
 	color: #3b3b3b;
 	font-family: 'texgyreadventorregular';
@@ -454,7 +454,7 @@ body {
 	display: block;
 	padding: 4px 8px;
 	color: #b6b6b6;
-	text-transform: capitalize;
+	text-transform: none;
 }
 .blog_list ul li i{
 	font-size: 15px;
@@ -608,7 +608,7 @@ body {
 }
 .tag_nav li a{
 	display: block;
-	text-transform: capitalize;
+	text-transform: none;
 	background: #3b3b3b;
 	color: #ffffff;
 	font-size: 13px;
@@ -658,7 +658,7 @@ body {
 /* start contact */
 .company_ad h2{
 	margin: 0 0 20px;
-	text-transform: capitalize;
+	text-transform: none;
 	font-size: 3em;
 	color:#3b3b3b;
 	font-family: 'texgyreadventorregular';
@@ -680,7 +680,7 @@ body {
 }
 .contact-form h2{
 	margin: 0 0 20px;
-	text-transform: capitalize;
+	text-transform: none;
 	font-size: 3em;
 	color:#3b3b3b;
 	font-family: 'texgyreadventorregular';

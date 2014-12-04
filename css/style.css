@@ -695,10 +695,15 @@ body {
 }
 
 
-
+.pdf{
+	width: 800px;
+	height: 800px;
+}
 .dowload{
 	color:blue;
 	display: block;
+	left: 60px;
+	position: relative;
 }
 .img-extenso img{
 	

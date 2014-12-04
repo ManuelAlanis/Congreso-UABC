@@ -694,6 +694,33 @@ body {
 	margin-bottom: 10px;
 }
 
+
+
+.dowload{
+	color:blue;
+}
+.img-extenso{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 80px;
+}
+
+.ext{
+	display: inline-block;
+	margin: 20px;
+	color:blue;
+}
+
+.extenso span{
+	display:block;
+	text-transform: none;
+	font-size: 14px;
+	color: #5b5b5b;
+	font-weight: normal;
+	margin-bottom: 10px;	
+}
+
 .privacidad span{
 	display:block;
 	font-size: 14px;

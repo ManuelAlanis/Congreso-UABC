@@ -475,7 +475,7 @@ body {
 	z-index: 1;
 }
 .blog_right h4{
-	text-transform: capitalize;
+	text-transform: none;
 	font-size: 2em;
 	color: #3b3b3b;
 	font-family: 'texgyreadventorregular';

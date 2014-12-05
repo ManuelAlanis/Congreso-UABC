@@ -315,6 +315,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width: auto;
 }
 
 .iframe-responsive-pagos{
@@ -2060,7 +2061,7 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
   color: #333;
-  background-color: red;
+  background-color: #ebebeb;
   border-color: #adadad;
 }
 .btn-default:active,

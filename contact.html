@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Congreso | CI2</title>
+<title>Contacto | CI2T</title>
 <!-- Bootstrap -->
 <meta charset="UTF-8">
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
@@ -23,6 +23,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/jquery.validate.min.js">
+<link rel="stylesheet" type="text/css" href="js/scripts.js">
 <!----font-Awesome----->
    	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
 <!----font-Awesome----->
@@ -86,8 +88,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="main row">
 			    <div class="col-md-4 company_ad">
 				    <h2>Dirección:</h2>
-      				<address>
-						 
+      				<address>						 
 						 <p>Tijuana, B.C, México</p>
 				   		<p>Telefono: +52 664 979 75 00</p>
 				   		<p>Ext.54343</p>
@@ -100,24 +101,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="col-md-8">
 				  <div class="contact-form">
 				  	<h2>Contacto</h2>
-
-					    <form method="post" action="#">
-					    	<div>
-						    	<span>Nombre</span>
-						    	<span><input name="name"type="username" class="form-control" id="userName"></span>
-						    </div>
-						    <div>
-						    	<span>e-mail</span>
-						    	<span><input name="email"type="email" class="form-control"placeholder="ejemplo@dominio.com" id="inputEmail3"></span>
-						    </div>
-						    <div>
-						    	<span>Asunto</span>
-						    	<span><textarea name="userMsg"> </textarea></span>
-						    </div>
-						   <div>
-						   		<label class="fa-btn btn-1 btn-1e"><input type="submit" value="Enviar"></label>
-						  </div>
-					    </form>
+			<section class="grid col-three-quarters mq2-col-two-thirds mq3-col-full">
+			<form id="contact_form" class="contact_form" action="contact.php" method="post" name="contact_form">	
+				<ul>
+					
+					
+						<span>Nombre:</span>
+						<input type="text" name="name" id="name" required class="form-control required" >
+					
+					
+						<span>Correo electronico:</span>
+						<input type="email" name="email" id="email" required placeholder="JohnDoe@gmail.com" class="form-control required email">
+						
+					
+						<span>Mensaje:</span>
+						<textarea name="message" id="message" cols="100" rows="6" required  class="required" ></textarea>
+					
+					
+						<button type="submit" id="submit" name="submit" class="button fright">Enviar</button>
+						
+				</ul>			
+			</form>
+		</section>	
 				    </div>
   			</div>		
   			<div class="clearfix"></div>		
